@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Dev Backend</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0a0a'/%3E%3Ctext x='50' y='70' font-size='60' text-anchor='middle' fill='%23e0e0e0' font-family='monospace' font-weight='bold'%3E%7B%7D%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">&lt;DevBackend /&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="greeting">Olá, eu sou</span>
+                <h1 class="name">Seu Nome Aqui</h1>
+                <h2 class="title">
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </h2>
+                <p class="description">
+                    Desenvolvedor Backend especializado em criar soluções robustas e escaláveis.
+                    Transformando ideias em código eficiente.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">01.</span> Sobre Mim
+            </h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>
+                        Olá! Sou um desenvolvedor backend apaixonado por tecnologia e resolver problemas complexos.
+                        Minha jornada no desenvolvimento começou quando descobri o poder de criar soluções que 
+                        impactam milhares de pessoas.
+                    </p>
+                    <p>
+                        Hoje, meu foco está em construir APIs robustas, arquiteturas escaláveis e sistemas 
+                        que suportam operações de grande escala. Adoro trabalhar com desafios técnicos e 
+                        aprender novas tecnologias.
+                    </p>
+                    <p>
+                        Aqui estão algumas tecnologias com as quais tenho trabalhado recentemente:
+                    </p>
+                    <ul class="tech-list">
+                        <li><i class="fas fa-chevron-right"></i> Node.js</li>
+                        <li><i class="fas fa-chevron-right"></i> Python</li>
+                        <li><i class="fas fa-chevron-right"></i> Docker</li>
+                        <li><i class="fas fa-chevron-right"></i> PostgreSQL</li>
+                        <li><i class="fas fa-chevron-right"></i> MongoDB</li>
+                        <li><i class="fas fa-chevron-right"></i> AWS</li>
+                    </ul>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                            <p>Adicione sua foto aqui</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">02.</span> Formação
+            </h2>
+            <div class="education-content">
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Nome da Instituição</h3>
+                        <h4>Curso de Graduação</h4>
+                        <span class="period">2020 - 2024</span>
+                        <p>Descrição sobre seus estudos e principais aprendizados.</p>
+                    </div>
+                </div>
+                <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-info">
+                        <h3>Cursos e Certificações</h3>
+                        <ul>
+                            <li>Certificação em AWS</li>
+                            <li>Node.js Avançado</li>
+                            <li>Arquitetura de Software</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">03.</span> Tecnologias & Habilidades
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3><i class="fas fa-code"></i> Linguagens</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript/TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js / Express</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Django / FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GraphQL / REST</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Redis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-tools"></i> DevOps & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Docker / Kubernetes</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS / Azure</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">04.</span> Projetos em Destaque
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">API REST</span>
+                        <h3>Sistema de E-commerce</h3>
+                        <p>
+                            API RESTful completa para e-commerce com autenticação JWT, 
+                            processamento de pagamentos e sistema de gestão de estoque.
+                        </p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Microserviços</span>
+                        <h3>Plataforma de Streaming</h3>
+                        <p>
+                            Arquitetura de microserviços para streaming de vídeo com CDN, 
+                            processamento assíncrono e escalabilidade horizontal.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>MongoDB</span>
+                            <span>AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Real-time</span>
+                        <h3>Chat em Tempo Real</h3>
+                        <p>
+                            Aplicação de chat com WebSockets, salas privadas, 
+                            notificações push e histórico de mensagens persistente.
+                        </p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Socket.io</span>
+                            <span>Redis</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number">05.</span> Entre em Contato
+            </h2>
+            <div class="contact-content" data-aos="fade-up">
+                <p class="contact-text">
+                    Estou sempre aberto a novas oportunidades e colaborações. 
+                    Se você tem um projeto interessante ou apenas quer conversar sobre tecnologia, 
+                    fique à vontade para entrar em contato!
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:seuemail@example.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>seuemail@example.com</p>
+                    </a>
+                    <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>/seu-perfil</p>
+                    </a>
+                    <a href="https://github.com/seu-usuario" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>@seu-usuario</p>
+                    </a>
+                    <a href="tel:+5511999999999" class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefone</h3>
+                        <p>+55 (11) 99999-9999</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/seu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/seu-perfil" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/seu-usuario" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:seuemail@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>&copy; 2026 Seu Nome. Desenvolvido com <i class="fas fa-heart"></i> por você mesmo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
