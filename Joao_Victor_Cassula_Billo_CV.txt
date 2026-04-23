@@ -1,0 +1,34 @@
+JOAO VICTOR CASSULA BILLO
+Backend Developer (Node.js + TypeScript)
+
+CONTACT
+Email: jvcbo06@icloud.com
+LinkedIn: https://www.linkedin.com/in/joaobillo/
+GitHub: https://github.com/joaobilllo
+WhatsApp: +55 44 99710-2688
+Instagram: @joaobillo
+
+SUMMARY
+Backend Developer focused on Node.js, Python and TypeScript, experienced in building scalable REST APIs, systems integrations and backend automation with PostgreSQL.
+
+EXPERIENCE
+Naty App | Closer (B2B & SaaS)
+Jan 2026 - Present | Toledo, PR, Brazil
+- Leading negotiations and presentations focused on conversion and revenue growth.
+
+Naty App | Sales Development Representative
+Feb 2025 - Jan 2026
+- Prospecting and qualifying leads while managing CRM funnels.
+- Applying SaaS tools and automations to improve response time and conversion.
+
+EDUCATION
+Faculdade Donaduzzi
+Bachelor's Degree in Computer Software Engineering
+
+TECH SKILLS
+Node.js, TypeScript, JavaScript, Python, Java, Express.js, React.js, Docker,
+REST APIs, JWT, Swagger, PostgreSQL, MySQL, Git, Jest
+
+LANGUAGES
+English (Advanced)
+Portuguese (Native)
